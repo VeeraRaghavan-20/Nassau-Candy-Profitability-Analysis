@@ -7,7 +7,7 @@ st.set_page_config(page_title="Nassau Candy Dashboard", layout="wide")
 st.title("Nassau Candy Distributor")
 st.subheader("Product Line Profitability & Margin Performance Analysis")
 
-df = pd.read_csv("Nassau Candy Cleaned Data.docx")
+df = pd.read_csv("Nassau_Candy_Final.csv")
 
 df['Gross Margin %'] = (df['Gross Profit'] / df['Sales']) * 100
 
